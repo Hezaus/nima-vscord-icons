@@ -1,0 +1,22 @@
+{
+  "vscord.enable": true,
+
+  "vscord.status.image.large.editing.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/{lang}.png",
+  "vscord.status.image.small.editing.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/{lang}.png",
+
+  "vscord.status.image.large.viewing.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/{lang}.png",
+  "vscord.status.image.small.viewing.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/{lang}.png",
+
+  "vscord.status.image.large.debugging.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/debugging.png",
+  "vscord.status.image.small.debugging.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/debugging.png",
+
+  "vscord.status.image.large.notInFile.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/idle-{app_id}.png",
+  "vscord.status.image.small.notInFile.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/idle-{app_id}.png",
+
+  "vscord.status.image.large.idle.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/idle-{app_id}.png",
+  "vscord.status.image.small.idle.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/idle-{app_id}.png",
+
+  "vscord.behaviour.additionalFileMapping": {
+    ".d.luau": "not-astro"
+  }
+}
