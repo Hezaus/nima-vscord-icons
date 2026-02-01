@@ -1,0 +1,19 @@
+Use bash
+
+Turn svg icons to png, trim and then centered on a 1024x1024 transparent canvas
+
+magick mogrify -background none -size 512x512 -path out/ -format png -trim -gravity center -extent 1024x1024 target/*.svg
+
+Fix the centering of all folder icon
+
+magick mogrify -path out/ -format png -trim +repage -background none -gravity northwest -extent 1024x1024-280-320 "sortbycolor/"*folder*.png
+
+Fill the background color of transparent png based on https://www.brandonfowler.me/sortbycolor/
+
+magick mogrify -path out/ -format png -background "#ffffff" -alpha remove -alpha off "sortbycolor/"{000..000}*.png
+
+Use pwsh
+
+Trim all file name to remove the sorting
+
+Get-ChildItem -Filter "??? - *.png" | Rename-Item -NewName { $_.Name -replace '^\d{3}\s-\s', '' } 

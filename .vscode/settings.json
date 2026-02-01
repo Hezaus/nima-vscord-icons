@@ -16,7 +16,5 @@
   "vscord.status.image.large.idle.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/idle-{app_id}.png",
   "vscord.status.image.small.idle.key": "https://raw.githubusercontent.com/Hezaus/nima-vscord-icons/main/icons/idle-{app_id}.png",
 
-  "vscord.behaviour.additionalFileMapping": {
-    ".d.luau": "not-astro"
-  }
+  "vscord.behaviour.additionalFileMapping": {}
 }

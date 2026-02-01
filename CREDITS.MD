@@ -1,25 +1,31 @@
-# Credits and Licenses
+# Credits and Third-Party Licenses
 
-This repository uses and modifies assets from the following projects. All assets are used under the terms of the MIT License.
-
-## 1. Charmed Icons
-
-- **Source:** [https://github.com/littensy/charmed-icons](https://github.com/littensy/charmed-icons)
-- **Author:** littensy
-- **License:** MIT
-- **Contribution:** Original SVG designs used as the base for the PNG conversions in this repository.
-
-## 2. VSCord
-
-- **Source:** [https://github.com/narcisbugeag/vscord](https://github.com/narcisbugeag/vscord)
-- **Author:** narcisbugeag
-- **License:** MIT
-- **Contribution:** Standard icon naming conventions and original assets used for merging missing language icons.
+This project includes assets from the following sources, used under the MIT License:
 
 ---
 
-### MIT License Summary
+## 1. Charmed Icons
+
+- **Source:** <https://github.com/littensy/charmed-icons>
+- **Notice:** Copyright 2024 Littensy
+
+---
+
+## 2. VSCord
+
+- **Source:** <https://github.com/narcisbugeag/vscord>
+- **Notice:** Copyright (c) 2020-2022 iCrawl
+  Copyright (c) 2020-2022 Satoqz
+  Copyright (c) 2020-2023 Narcis B.
+
+---
+
+### MIT License Text
+
+(Applies to the third-party notices above)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
